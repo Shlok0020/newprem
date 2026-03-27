@@ -16,7 +16,9 @@ const app = express();
 app.use(cors({
   origin: [
   'https://newpremglasshouse.in',
-  'https://admin.newpremglasshouse.in'
+  'https://www.newpremglasshouse.in',
+  'https://admin.newpremglasshouse.in',
+  'https://newprem.netlify.app'
 ],
   credentials: true,
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS', 'PATCH'],
